@@ -1,0 +1,24 @@
+{
+  "name": "art21042147_verc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Art21042147/Art21042147_verc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Art21042147/Art21042147_verc/issues"
+  },
+  "homepage": "https://github.com/Art21042147/Art21042147_verc#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
