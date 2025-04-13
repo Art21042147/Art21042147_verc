@@ -13091,3 +13091,56 @@ body {
   padding: 3rem 0;
   background: black;
 }
+
+.scroll-gallery-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 1rem 0;
+}
+
+.scroll-gallery-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.scroll-gallery-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  flex-grow: 1;
+  margin: 0 2rem;
+}
+
+.scroll-gallery {
+  display: flex;
+  gap: 1rem;
+}
+
+.img-thumb {
+  height: 25rem;
+  width: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.img-thumb.enlarged {
+  transform: scale(2.0);
+  position: absolute;
+  z-index: 1000;
+}
+
+.scroll-btn {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.scroll-btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}

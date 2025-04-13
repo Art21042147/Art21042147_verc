@@ -61,10 +61,10 @@
                         <div class="project-text w-100 my-auto text-center text-lg-left">
                             <h4 class="text-white">It's me</h4>
                             <p class="mb-0 text-white-50">Not a bad guy, huh?</p>
-                            <p class="mb-0 text-white-50">In recent years, I have worked in CAD/CAM CNC programming with full quality control (FAI, SPC, CMM inspection). 
-                                When I started learning high-level programming, I realized that this experience significantly helped me understand vectors, matrices, and tensors more deeply.
-                                The principles used in CAD/CAM for working with 3D space, interpolating toolpaths, and transforming coordinates are remarkably similar to the methods employed
-                                in NumPy, Pandas, and various ML libraries.</p>
+                            <p class="mb-0 text-white-50">Most of my life I have worked in system administration, 
+                                automatic control systems and CAD/CAM CNC programming with full quality control (FAI, SPC, CMM inspection). 
+                                And I decided it was time to apply my knowledge and experience in web development.
+                                After low-level CNC programming, learning high-level languages like Python and JavaScript came naturally.</p>
                         </div>
                     </div>
                 </div>
@@ -76,13 +76,32 @@
                         have impressed me.</p>
                 </div>
             </div>
-            <img class="img-fluid img-interactive" src="assets/img/my_books.jpg" alt="..." />
+            <div class="scroll-gallery-wrapper">
+                <button class="scroll-btn left" onclick="scrollGallery(-1)">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="scroll-gallery-container">
+                  <div class="scroll-gallery" id="scrollGallery">
+                    <img src="assets/img/aditya.jpg" class="img-thumb img-interactive" alt="Aditya" />
+                    <img src="assets/img/bessis.jpg" class="img-thumb img-interactive" alt="Bessis" />
+                    <img src="assets/img/basant.jpg" class="img-thumb img-interactive" alt="Basant" />
+                    <img src="assets/img/lutz.jpg" class="img-thumb img-interactive" alt="Lutz" />
+                    <img src="assets/img/cuantum.jpg" class="img-thumb img-interactive" alt="Cuantum" />
+                    <img src="assets/img/epp.jpg" class="img-thumb img-interactive" alt="Epp" />
+                    <img src="assets/img/nelson.jpg" class="img-thumb img-interactive" alt="Nelson" />
+                    <img src="assets/img/keret.jpg" class="img-thumb img-interactive" alt="Keret" />
+                  </div>
+                </div>
+                <button class="scroll-btn right" onclick="scrollGallery(1)">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
         </div>
     </section>
     <!-- Projects-->
     <section class="about-section text-center" id="projects">
         <div class="container px-4 px-lg-5">
-            <!-- Project One Row-->
+            <!-- Project First Row-->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                 <div class="col-lg-6"><img class="img-fluid img-interactive" src="assets/img/tg_bot.jpg" alt="..." />
                 </div>
@@ -101,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Project Two Row-->
+            <!-- Project Second Row-->
             <div class="row gx-0 justify-content-center">
                 <div class="col-lg-6"><img class="img-fluid img-interactive" src="assets/img/ml_set.jpg" alt="..." />
                 </div>
@@ -115,6 +134,29 @@
                                     allowed me to get familiar with FastAPI, Scikit-learn, TensorFlow, and PyTorch all
                                     at once. Here is the code:
                                     <a href="https://github.com/Art21042147/ML_Set">GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Third Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid img-interactive" src="assets/img/artbook.jpg" alt="..." />
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">ArtBookReader</h4>
+                                <p class="mb-0 text-white-50">As I mentioned, I love books. 
+                                    So when I wanted to practice fullstack development, I created a multi-format book reader app. 
+                                    This app lets you enjoy reading on any system, right from your browser. 
+                                    Bookmarks, reading position, and your library will always stay with you. 
+                                    Here's the link to the app. 
+                                    <a href="https://artbookreader.onrender.com">artbookreader.onrender.com</a>
+                                    And this is the code:
+                                    <a href="https://github.com/Art21042147/ArtBookReader">GitHub</a>
                                 </p>
                             </div>
                         </div>

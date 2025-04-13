@@ -87,13 +87,19 @@ document.getElementById("contactForm").addEventListener("submit", async function
             document.getElementById("submitErrorMessage").classList.add("d-none");
             document.getElementById("contactForm").reset();
         } else {
-            console.error("Ошибка отправки сообщения:", response.status, response.statusText);
+            console.error("Error sending message:", response.status, response.statusText);
             document.getElementById("submitSuccessMessage").classList.add("d-none");
             document.getElementById("submitErrorMessage").classList.remove("d-none");
         }
     } catch (error) {
-        console.error("Ошибка запроса:", error);
+        console.error("Request error:", error);
         document.getElementById("submitSuccessMessage").classList.add("d-none");
         document.getElementById("submitErrorMessage").classList.remove("d-none");
     }
 });
+
+function scrollGallery(direction) {
+    const container = document.querySelector('.scroll-gallery-container');
+    const scrollAmount = 200;
+    container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+}
