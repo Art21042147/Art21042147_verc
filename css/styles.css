@@ -13118,7 +13118,7 @@ body {
 }
 
 .img-thumb {
-  height: 25rem;
+  height: 20rem;
   width: auto;
   object-fit: cover;
   transition: transform 0.3s ease;
